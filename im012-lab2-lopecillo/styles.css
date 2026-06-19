@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f5f5;
+    margin: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between boxes */
+    margin-bottom: 25px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    min-width: 180px;
+    max-width: 300px;
+    background: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.card h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+
+.button {
+    background: #28a745;
+    color: white;
+    padding: 10px 18px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.button:hover {
+    background:     #218838;
+}
+
+.search-box {
+    margin: 20px 0;
+}
+
+.search-box input,
+.search-box select {
+    padding: 8px;
+}
+
+.search-box button {
+    padding: 8px 15px;
+    width: 100px;
+    background: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box button:hover {
+    background: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+}
+
+table th {
+    background: #333;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+
+.edit-btn {
+    background: #007bff;
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.low-stock {
+    background: #ffd6d6;
+}
+
+.delete-btn {
+    background: #dc3545;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.delete-btn:hover {
+    background: #c82333;
+}
+
+
+.report-btn {
+    background: #17a2b8;
+    color: white;
+    padding: 8px 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 8px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.report-btn:hover {
+    background: #117a8b;
+}
+
+.action-cell > * {
+    margin-right: 8px;
+}
+
+.delete-link {
+    color: #dc3545;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 8px;
+    cursor: pointer;
+}
+
+.delete-link:hover {
+    color: #c82333;
+    text-decoration: underline;
+}
+
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 0;
+    margin-bottom: 25px;
+}
+
+.navbar a {
+    color: #17a2b8;
+    text-decoration: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 12px 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    background-color: grey;
+    color: white;
+    transition: 0.3s;
+}
